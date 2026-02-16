@@ -1,0 +1,17 @@
+[package]
+name = "site"
+version = "0.1.0"
+edition = "2021"
+description = "wbgood.io - Senior Software Engineer Portfolio"
+readme = "README.md"
+repository = "https://github.com/wbgood/site"
+license = "MIT"
+keywords = ["yew", "trunk", "portfolio", "web", "wasm"]
+categories = ["gui", "wasm", "web-programming"]
+
+[package.metadata.deploy]
+sub_dir = "dist"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+yew = { version="0.22", features=["csr"] }
