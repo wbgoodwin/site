@@ -23,7 +23,7 @@ jobs:
       run: cargo install trunk
 
     - name: Build site
-      run: trunk build --release --public-url wbgood.io
+      run: trunk build --release --public-url /site/
 
     - name: Setup Pages
       uses: actions/configure-pages@v4
