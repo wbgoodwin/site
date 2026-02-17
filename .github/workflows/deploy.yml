@@ -23,7 +23,7 @@ jobs:
       run: cargo install trunk
 
     - name: Build site
-      run: trunk build --release --public-url /site/
+      run: trunk build --release --public-url /
 
     - name: Setup Pages
       uses: actions/configure-pages@v4
